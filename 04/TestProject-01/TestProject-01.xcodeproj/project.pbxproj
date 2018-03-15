@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9554821B205A6A6300CD7C6D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9554821A205A6A6300CD7C6D /* main.swift */; };
+		95548222205A6B8200CD7C6D /* Defining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95548221205A6B8200CD7C6D /* Defining.swift */; };
+		95548224205A775200CD7C6D /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95548223205A775200CD7C6D /* Inheritance.swift */; };
+		95548226205A7DC800CD7C6D /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95548225205A7DC800CD7C6D /* Composition.swift */; };
+		95548228205A978800CD7C6D /* AsAType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95548227205A978800CD7C6D /* AsAType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		95548217205A6A6300CD7C6D /* TestProject-01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TestProject-01"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9554821A205A6A6300CD7C6D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		95548221205A6B8200CD7C6D /* Defining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defining.swift; sourceTree = "<group>"; };
+		95548223205A775200CD7C6D /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
+		95548225205A7DC800CD7C6D /* Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composition.swift; sourceTree = "<group>"; };
+		95548227205A978800CD7C6D /* AsAType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsAType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				9554821A205A6A6300CD7C6D /* main.swift */,
+				95548221205A6B8200CD7C6D /* Defining.swift */,
+				95548223205A775200CD7C6D /* Inheritance.swift */,
+				95548225205A7DC800CD7C6D /* Composition.swift */,
+				95548227205A978800CD7C6D /* AsAType.swift */,
 			);
 			path = "TestProject-01";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95548228205A978800CD7C6D /* AsAType.swift in Sources */,
+				95548226205A7DC800CD7C6D /* Composition.swift in Sources */,
 				9554821B205A6A6300CD7C6D /* main.swift in Sources */,
+				95548222205A6B8200CD7C6D /* Defining.swift in Sources */,
+				95548224205A775200CD7C6D /* Inheritance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

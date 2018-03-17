@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9538BAD9205D03CD004F50AB /* TypeCasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538BAD8205D03CD004F50AB /* TypeCasting.swift */; };
+		9538BADB205D0C09004F50AB /* AssociatedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538BADA205D0C09004F50AB /* AssociatedTypes.swift */; };
+		9538BADD205D1977004F50AB /* Delegation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538BADC205D1977004F50AB /* Delegation.swift */; };
+		9538BADF205D2A3E004F50AB /* Designing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538BADE205D2A3E004F50AB /* Designing.swift */; };
 		9554821B205A6A6300CD7C6D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9554821A205A6A6300CD7C6D /* main.swift */; };
 		95548222205A6B8200CD7C6D /* Defining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95548221205A6B8200CD7C6D /* Defining.swift */; };
 		95548224205A775200CD7C6D /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95548223205A775200CD7C6D /* Inheritance.swift */; };
@@ -27,6 +31,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9538BAD8205D03CD004F50AB /* TypeCasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCasting.swift; sourceTree = "<group>"; };
+		9538BADA205D0C09004F50AB /* AssociatedTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedTypes.swift; sourceTree = "<group>"; };
+		9538BADC205D1977004F50AB /* Delegation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegation.swift; sourceTree = "<group>"; };
+		9538BADE205D2A3E004F50AB /* Designing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designing.swift; sourceTree = "<group>"; };
 		95548217205A6A6300CD7C6D /* TestProject-01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TestProject-01"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9554821A205A6A6300CD7C6D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		95548221205A6B8200CD7C6D /* Defining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defining.swift; sourceTree = "<group>"; };
@@ -70,6 +78,10 @@
 				95548223205A775200CD7C6D /* Inheritance.swift */,
 				95548225205A7DC800CD7C6D /* Composition.swift */,
 				95548227205A978800CD7C6D /* AsAType.swift */,
+				9538BAD8205D03CD004F50AB /* TypeCasting.swift */,
+				9538BADA205D0C09004F50AB /* AssociatedTypes.swift */,
+				9538BADC205D1977004F50AB /* Delegation.swift */,
+				9538BADE205D2A3E004F50AB /* Designing.swift */,
 			);
 			path = "TestProject-01";
 			sourceTree = "<group>";
@@ -137,6 +149,10 @@
 				9554821B205A6A6300CD7C6D /* main.swift in Sources */,
 				95548222205A6B8200CD7C6D /* Defining.swift in Sources */,
 				95548224205A775200CD7C6D /* Inheritance.swift in Sources */,
+				9538BADF205D2A3E004F50AB /* Designing.swift in Sources */,
+				9538BAD9205D03CD004F50AB /* TypeCasting.swift in Sources */,
+				9538BADB205D0C09004F50AB /* AssociatedTypes.swift in Sources */,
+				9538BADD205D1977004F50AB /* Delegation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

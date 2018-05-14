@@ -40,3 +40,18 @@ print("String validated: \(validator1!.validateString(str: str))")
 
 let validator2 = getValidator(alphaCharacters: true, numericCharacters: true)
 print("String validated: \(validator2!.validateString(str: str))")
+
+let message = PlainTextMessage(messageString: "Plain Text Message")
+var sender = SMSSender()
+MessageingBridge.sendMessage(message: message, sender: sender)
+
+let ourHouse = HouseProxy()
+let basement = FloorPlan(bedRooms: 0, utilityRooms: 1, bathRooms: 1, kitchen: 0, livingRoom: 1)
+let firstStory = FloorPlan(bedRooms: 1, utilityRooms: 0, bathRooms: 2, kitchen: 1, livingRoom: 1)
+let secondStory = FloorPlan(bedRooms: 2, utilityRooms: 0, bathRooms: 1, kitchen: 0, livingRoom: 1)
+let additionalStory = FloorPlan(bedRooms: 1, utilityRooms: 0, bathRooms: 1, kitchen: 1, livingRoom: 1)
+
+print(ourHouse.addStory(floorPlan: basement))
+print(ourHouse.addStory(floorPlan: firstStory))
+print(ourHouse.addStory(floorPlan: secondStory))
+print(ourHouse.addStory(floorPlan: additionalStory))

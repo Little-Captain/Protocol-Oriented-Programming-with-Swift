@@ -34,3 +34,9 @@ burgerBuilder.setCheese(true)
 burgerBuilder.setBacon(true)
 var jonBurger = burgerBuilder.buildBurgerOld("Jon's Burger")
 
+let str = "abc123"
+let validator1 = getValidator(alphaCharacters: true, numericCharacters: false)
+print("String validated: \(validator1!.validateString(str: str))")
+
+let validator2 = getValidator(alphaCharacters: true, numericCharacters: true)
+print("String validated: \(validator2!.validateString(str: str))")

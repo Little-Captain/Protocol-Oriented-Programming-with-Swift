@@ -10,6 +10,8 @@
 		9592376320916EAA0073EBC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592376220916EAA0073EBC0 /* main.swift */; };
 		9592376A20916ECF0073EBC0 /* MySingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592376920916ECF0073EBC0 /* MySingleton.swift */; };
 		9592376C2091732C0073EBC0 /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592376B2091732C0073EBC0 /* Burger.swift */; };
+		B9BCAB4920A92D940040E41B /* TextValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BCAB4820A92D930040E41B /* TextValidationProtocol.swift */; };
+		B9BCAB4B20A92DE20040E41B /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BCAB4A20A92DE20040E41B /* Validation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		9592376220916EAA0073EBC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9592376920916ECF0073EBC0 /* MySingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingleton.swift; sourceTree = "<group>"; };
 		9592376B2091732C0073EBC0 /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
+		B9BCAB4820A92D930040E41B /* TextValidationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextValidationProtocol.swift; sourceTree = "<group>"; };
+		B9BCAB4A20A92DE20040E41B /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				9592376220916EAA0073EBC0 /* main.swift */,
 				9592376920916ECF0073EBC0 /* MySingleton.swift */,
 				9592376B2091732C0073EBC0 /* Burger.swift */,
+				B9BCAB4820A92D930040E41B /* TextValidationProtocol.swift */,
+				B9BCAB4A20A92DE20040E41B /* Validation.swift */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -126,7 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9592376320916EAA0073EBC0 /* main.swift in Sources */,
+				B9BCAB4920A92D940040E41B /* TextValidationProtocol.swift in Sources */,
 				9592376A20916ECF0073EBC0 /* MySingleton.swift in Sources */,
+				B9BCAB4B20A92DE20040E41B /* Validation.swift in Sources */,
 				9592376C2091732C0073EBC0 /* Burger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

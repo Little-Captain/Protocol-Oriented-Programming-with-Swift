@@ -15,6 +15,7 @@
 		B9BCAB4F20A979B10040E41B /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BCAB4E20A979B10040E41B /* Bridge.swift */; };
 		B9BCAB5120A9878A0040E41B /* facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BCAB5020A9878A0040E41B /* facade.swift */; };
 		B9BCAB5320A98E570040E41B /* proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BCAB5220A98E570040E41B /* proxy.swift */; };
+		B9C9EF8220AD1800009F3318 /* command.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C9EF8120AD1800009F3318 /* command.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		B9BCAB4E20A979B10040E41B /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		B9BCAB5020A9878A0040E41B /* facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facade.swift; sourceTree = "<group>"; };
 		B9BCAB5220A98E570040E41B /* proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proxy.swift; sourceTree = "<group>"; };
+		B9C9EF8120AD1800009F3318 /* command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = command.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				B9BCAB4E20A979B10040E41B /* Bridge.swift */,
 				B9BCAB5020A9878A0040E41B /* facade.swift */,
 				B9BCAB5220A98E570040E41B /* proxy.swift */,
+				B9C9EF8120AD1800009F3318 /* command.swift */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9C9EF8220AD1800009F3318 /* command.swift in Sources */,
 				B9BCAB5320A98E570040E41B /* proxy.swift in Sources */,
 				9592376320916EAA0073EBC0 /* main.swift in Sources */,
 				B9BCAB4920A92D940040E41B /* TextValidationProtocol.swift in Sources */,

@@ -55,3 +55,15 @@ print(ourHouse.addStory(floorPlan: basement))
 print(ourHouse.addStory(floorPlan: firstStory))
 print(ourHouse.addStory(floorPlan: secondStory))
 print(ourHouse.addStory(floorPlan: additionalStory))
+
+/// Command
+print("--------- Command ---------")
+let on = PullSwitchLightOnCommand()
+let off = PullSwitchLightOffCommand()
+let light = Light(lightOnCommand: on, lightOffCommand: off)
+
+light.turnOnLight()
+light.turnOffLight()
+
+light.lightOnCommand = RockerSwitchLightOnCommand()
+light.turnOnLight()

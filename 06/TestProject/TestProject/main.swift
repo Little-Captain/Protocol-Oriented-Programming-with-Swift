@@ -79,3 +79,23 @@ compress.compressFiles(filePaths)
 
 compress.strategy = rar
 compress.compressFiles(filePaths)
+
+/// Observer 1
+print("--------- Observer 1 ---------")
+var postType = PostType()
+var observerType = ObserverType()
+postType.post()
+
+/// Observer 2
+print("--------- Observer 2 ---------")
+var observer = MyObserver()
+var zombie = Zombie(observer: observer)
+
+zombie.turnZombieLeft()
+zombie.spotHuman()
+
+/// Observer 3
+print("--------- Observer 3 ---------")
+var myObserver = MyObserverType()
+var p = PropertyObserver(observer: myObserver, property1: "Initial String")
+p.property1 = "My String"

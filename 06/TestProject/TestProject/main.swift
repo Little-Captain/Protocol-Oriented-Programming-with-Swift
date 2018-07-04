@@ -67,3 +67,15 @@ light.turnOffLight()
 
 light.lightOnCommand = RockerSwitchLightOnCommand()
 light.turnOnLight()
+
+/// Strategy
+print("--------- Strategy ---------")
+var filePaths = ["file1.txt", "file2.txt"]
+var zip = ZipCompressionStrategy()
+var rar = RarCompressionStrategy()
+
+var compress = CompressContent(strategy: zip)
+compress.compressFiles(filePaths)
+
+compress.strategy = rar
+compress.compressFiles(filePaths)

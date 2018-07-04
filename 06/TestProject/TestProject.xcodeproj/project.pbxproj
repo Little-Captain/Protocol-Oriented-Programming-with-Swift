@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9592376320916EAA0073EBC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592376220916EAA0073EBC0 /* main.swift */; };
-		9592376A20916ECF0073EBC0 /* MySingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592376920916ECF0073EBC0 /* MySingleton.swift */; };
+		9592376A20916ECF0073EBC0 /* singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592376920916ECF0073EBC0 /* singleton.swift */; };
 		9592376C2091732C0073EBC0 /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592376B2091732C0073EBC0 /* Burger.swift */; };
 		B9BCAB4920A92D940040E41B /* TextValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BCAB4820A92D930040E41B /* TextValidationProtocol.swift */; };
 		B9BCAB4B20A92DE20040E41B /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BCAB4A20A92DE20040E41B /* Validation.swift */; };
-		B9BCAB4F20A979B10040E41B /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BCAB4E20A979B10040E41B /* Bridge.swift */; };
+		B9BCAB4F20A979B10040E41B /* bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BCAB4E20A979B10040E41B /* bridge.swift */; };
 		B9BCAB5120A9878A0040E41B /* facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BCAB5020A9878A0040E41B /* facade.swift */; };
 		B9BCAB5320A98E570040E41B /* proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BCAB5220A98E570040E41B /* proxy.swift */; };
 		B9C9EF8220AD1800009F3318 /* command.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C9EF8120AD1800009F3318 /* command.swift */; };
+		B9D8327E20ECB0C5003DA233 /* strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D8327D20ECB0C5003DA233 /* strategy.swift */; };
+		B9D8328020ECB366003DA233 /* observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D8327F20ECB366003DA233 /* observer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,14 +35,16 @@
 /* Begin PBXFileReference section */
 		9592375F20916EAA0073EBC0 /* TestProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		9592376220916EAA0073EBC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		9592376920916ECF0073EBC0 /* MySingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingleton.swift; sourceTree = "<group>"; };
+		9592376920916ECF0073EBC0 /* singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleton.swift; sourceTree = "<group>"; };
 		9592376B2091732C0073EBC0 /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
 		B9BCAB4820A92D930040E41B /* TextValidationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextValidationProtocol.swift; sourceTree = "<group>"; };
 		B9BCAB4A20A92DE20040E41B /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
-		B9BCAB4E20A979B10040E41B /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		B9BCAB4E20A979B10040E41B /* bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bridge.swift; sourceTree = "<group>"; };
 		B9BCAB5020A9878A0040E41B /* facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facade.swift; sourceTree = "<group>"; };
 		B9BCAB5220A98E570040E41B /* proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proxy.swift; sourceTree = "<group>"; };
 		B9C9EF8120AD1800009F3318 /* command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = command.swift; sourceTree = "<group>"; };
+		B9D8327D20ECB0C5003DA233 /* strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strategy.swift; sourceTree = "<group>"; };
+		B9D8327F20ECB366003DA233 /* observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = observer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,14 +78,16 @@
 			isa = PBXGroup;
 			children = (
 				9592376220916EAA0073EBC0 /* main.swift */,
-				9592376920916ECF0073EBC0 /* MySingleton.swift */,
+				9592376920916ECF0073EBC0 /* singleton.swift */,
 				9592376B2091732C0073EBC0 /* Burger.swift */,
 				B9BCAB4820A92D930040E41B /* TextValidationProtocol.swift */,
 				B9BCAB4A20A92DE20040E41B /* Validation.swift */,
-				B9BCAB4E20A979B10040E41B /* Bridge.swift */,
+				B9BCAB4E20A979B10040E41B /* bridge.swift */,
 				B9BCAB5020A9878A0040E41B /* facade.swift */,
 				B9BCAB5220A98E570040E41B /* proxy.swift */,
 				B9C9EF8120AD1800009F3318 /* command.swift */,
+				B9D8327D20ECB0C5003DA233 /* strategy.swift */,
+				B9D8327F20ECB366003DA233 /* observer.swift */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -143,15 +149,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D8327E20ECB0C5003DA233 /* strategy.swift in Sources */,
 				B9C9EF8220AD1800009F3318 /* command.swift in Sources */,
 				B9BCAB5320A98E570040E41B /* proxy.swift in Sources */,
 				9592376320916EAA0073EBC0 /* main.swift in Sources */,
 				B9BCAB4920A92D940040E41B /* TextValidationProtocol.swift in Sources */,
-				B9BCAB4F20A979B10040E41B /* Bridge.swift in Sources */,
-				9592376A20916ECF0073EBC0 /* MySingleton.swift in Sources */,
+				B9BCAB4F20A979B10040E41B /* bridge.swift in Sources */,
+				9592376A20916ECF0073EBC0 /* singleton.swift in Sources */,
 				B9BCAB5120A9878A0040E41B /* facade.swift in Sources */,
 				B9BCAB4B20A92DE20040E41B /* Validation.swift in Sources */,
 				9592376C2091732C0073EBC0 /* Burger.swift in Sources */,
+				B9D8328020ECB366003DA233 /* observer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

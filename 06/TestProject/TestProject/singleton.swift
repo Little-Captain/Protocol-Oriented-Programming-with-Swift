@@ -1,5 +1,5 @@
 //
-//  MySingleton.swift
+//  singleton.swift
 //  TestProject
 //
 //  Created by Liu-Mac on 4/26/18.
